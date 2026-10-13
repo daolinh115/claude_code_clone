@@ -11,9 +11,9 @@ claude_clone_ver_3/
     └── response.py         # Định nghĩa cấu trúc dữ liệu phản hồi từ AI 
 
 ```
-
 -----------------------------------
 ## 2. Luồng dữ liệu (Data Flow)
+```text
 [ main.py ] 
    │ (Khởi tạo & gọi yêu cầu)
    ▼
@@ -24,3 +24,4 @@ claude_clone_ver_3/
    │ (Trả kết quả stream/text)
    ▼
 [ client/response.py ] (Chuẩn hóa dữ liệu trả về)
+```
