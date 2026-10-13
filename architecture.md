@@ -2,12 +2,15 @@
 
 ## 1. Sơ đồ kết nối thư mục
 
+```text
 claude_clone_ver_3/
 ├── main.py                 # Điểm khởi chạy ứng dụng (Entry Point)   
 │
 └── client/                 # Tầng giao tiếp LLM 
     ├── llm_client.py       # Kết nối AsyncOpenAI & đóng gói request/tool
     └── response.py         # Định nghĩa cấu trúc dữ liệu phản hồi từ AI 
+
+```
 
 -----------------------------------
 ## 2. Luồng dữ liệu (Data Flow)
